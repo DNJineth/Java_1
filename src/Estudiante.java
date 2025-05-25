@@ -16,6 +16,7 @@ public class Estudiante {
     public String getNombre() {
         return nombre;
     }
+
     public  void setEdad(int edad) {this.edad = edad;}
     public int getEdad() {
         return edad;
@@ -35,13 +36,14 @@ public class Estudiante {
     public String getDireccion() {
         return direccion;
     }
+
     public String toString(){
         return "Estudiante{"+
                 "cc='" + cc + '\''+
                 ", nombre='" + nombre + '\''+
-                "edad=" + edad + '\''+
-                "telefono=" + telefono + '\''+
-                "direccion=" + direccion+ '\'' +
+                " edad=" + edad + '\''+
+                " telefono=" + telefono + '\''+
+                " direccion=" + direccion+ '\'' +
                  '}';
 
     }
